@@ -13,6 +13,12 @@ padding: 80px 0 80px 0;
     font-size: 18px;
     text-decoration: line-through;
 }
+.featured-item .right .disc-price {
+    color: #1abc9c; 
+    font-size: 28px;
+    font-family: 'Montserrat';
+
+}
 
 .featured-item .right .title {
     font-size: 56px;
