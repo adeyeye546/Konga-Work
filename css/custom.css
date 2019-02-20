@@ -1,6 +1,17 @@
 body {
     font-family: 'Montserrat';
 }
+.description-product {
+    margin-bottom: 50px;
+}
+.description-product .detail {
+    color: #5C5C5C;
+    margin-left: -12px;
+}
+.description-product .title {
+    color: #5C5C5C;
+    margin-left: -12px;
+}
 .footer {
     text-align: center;
     color: #9b9b9b;

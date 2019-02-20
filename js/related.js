@@ -1,4 +1,4 @@
-Vue.component('myproduct', {
+Vue.component('related', {
     template: `
     <div class="container new-arrival"> 
                 <div class="row">
@@ -20,7 +20,7 @@ Vue.component('myproduct', {
     `,
     data: function() {
         return {
-            title: 'LATEST DEALS',
+            title: 'RECOMMENDED FOR YOU',
             productitem: [
                 {
                     name: 'Lazer Printer',
@@ -41,27 +41,8 @@ Vue.component('myproduct', {
                     name: 'Gold Apple Watch',
                     price: '#12,000',
                     imgpath: 'img/f.jpg'
-                },
-                {
-                    name: 'Cutting Tool',
-                    price: '#12,000',
-                    imgpath: 'img/b.jpg'
-                },
-                {
-                    name: 'Frying Pan',
-                    price: '#12,000',
-                    imgpath: 'img/g.jpg'
-                },
-                {
-                    name: 'Portable Plates',
-                    price: '#12,000',
-                    imgpath: 'img/h.jpg'
-                },
-                {
-                    name: 'Clipper',
-                    price: '#12,000',
-                    imgpath: 'img/c.jpg'
                 }
+            
             ]
         }
     }
