@@ -1,6 +1,30 @@
 body {
     font-family: 'Montserrat';
 }
+.new-arrival {
+
+}
+.new-arrival .title {
+    color: #5C5C5C;
+    margin-bottom: 40px;
+}
+
+.new-arrival .item {   
+}
+.new-arrival .item .price {
+   font-size: 16px;
+   color: #1abc9c;
+   text-align: center;
+   margin-top: -16px;
+    
+}
+.new-arrival .item .product-name {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #5C5C5C;
+    font-family:  'Montserrat';
+}
 
 .featured-item {
 padding: 80px 0 80px 0;
@@ -8,15 +32,30 @@ padding: 80px 0 80px 0;
 .featured-item .right {
     
 }
+.featured-item .btn-primary {
+    margin-top: 20px;
+    color: white;
+    background: #1abc9c;
+    border-radius: 100px;
+    border: 0px;
+    padding: 8px 28px 8px 28px;
+    -webkit-box-shadow: -4px 7px 44px 0px rgba(255,187,93,0.74);
+    -moz-box-shadow: -4px 7px 44px 0px rgba(255,187,93,0.74);
+    box-shadow: -4px 7px 44px 0px rgba(255,187,93,0.74);
+    
+}
+
 .featured-item .right .origin-price {
     color: #9b9b9b; 
     font-size: 18px;
     text-decoration: line-through;
+    margin-top: -20px;
 }
 .featured-item .right .disc-price {
-    color: #1abc9c; 
+    color: palevioletred;
     font-size: 28px;
     font-family: 'Montserrat';
+    margin-top: -10px;
 
 }
 
@@ -24,6 +63,8 @@ padding: 80px 0 80px 0;
     font-size: 56px;
     font-family: 'Montserrat-ExtraLight';
     color: #5C5C5C;
+    line-height: 1.3;
+    margin-bottom: 30px;
 }
 
 .featured-item .left {
